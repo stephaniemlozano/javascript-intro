@@ -218,3 +218,11 @@ const goRun = runTime(
   weatherNow.timeNow
 );
 console.log(goRun);
+
+
+
+function addFunction(x, y) {
+    let answer = x + y
+    console.log(answer)
+}
+addFunction(1,2)
