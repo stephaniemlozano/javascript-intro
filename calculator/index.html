@@ -17,25 +17,24 @@
             <div class="first-num">...</div>
             <div class="second-num">...</div>
         </div>
-        <button class="btn-ac">AC</button>
-        <button class="btn-del">DEL</button>
-        <button class="btn-percent">%</button>
+        <button class="btn-action" id="btn-ac" onclick="buttonAction()">AC</button>
+        <button class="btn-action" onclick="buttonAction()">DEL</button>
         <button class="btn-operation" onclick="divideOperation()">/</button>
-        <button class="number-key" onclick="7">7</button>
-        <button class="number-key">8</button>
-        <button class="number-key">9</button>
+        <button class="number-key" onclick="buttonNumberKey('7')">7</button>
+        <button class="number-key" onclick="buttonNumberKey()">8</button>
+        <button class="number-key" onclick="buttonNumberKey()">9</button>
         <button class="btn-operation" onclick="multiplyOperation()">*</button>
-        <button class="number-key">4</button>
-        <button class="number-key">5</button>
-        <button class="number-key">6</button>
+        <button class="number-key" onclick="buttonNumberKey()">4</button>
+        <button class="number-key" onclick="buttonNumberKey()">5</button>
+        <button class="number-key" onclick="buttonNumberKey()">6</button>
         <button class="btn-operation" onclick="addOperation()">+</button>
-        <button class="number-key">1</button>
-        <button class="number-key">2</button>
-        <button class="number-key">3</button>
+        <button class="number-key" onclick="buttonNumberKey()">1</button>
+        <button class="number-key" onclick="buttonNumberKey()">2</button>
+        <button class="number-key" onclick="buttonNumberKey()">3</button>
         <button class="btn-operation" onclick="subtractOperation()">-</button>
-        <button class="number-key">0</button>
-        <button class="number-key">.</button>
-        <button class="span-two-square" id="btn-equal">=</button>
+        <button class="number-key" onclick="buttonNumberKey()">0</button>
+        <button class="number-key" onclick="buttonNumberKey()">.</button>
+        <button class="btn-action" id="btn-equal" onclick="buttonAction()">=</button>
     </div>
     <script src="calc2.js"></script>
 </body>
